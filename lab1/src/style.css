@@ -1,0 +1,32 @@
+.navbar-brand img {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+}
+
+#logo1 {
+    margin-left: auto;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+#bg_words {
+    min-height: 70vh;
+    background-image: url(../img/words.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60vw;
+}
+
+.board {
+    min-height: 100vh;
+    background-image: url(../img/board1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
