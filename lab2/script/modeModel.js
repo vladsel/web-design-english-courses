@@ -52,35 +52,35 @@ export default class Mode {
         if (emptyForm == false) {
             // event.preventDefault();
 
-            if ($('#control-form-input-row-1-col-2').val().toLowerCase() ==
+            if ($('#control-form-input-row-1-col-2').val().toLowerCase().trim() ==
                 sessionStorage.getItem(sessionStorage.getItem("#study-row-1-col-1"))) {
                     document.querySelector('#control-div-input-row-1-col-2').innerHTML = `true`;
             }
             else
                 document.querySelector('#control-div-input-row-1-col-2').innerHTML = `false`;
 
-            if ($('#control-form-input-row-2-col-2').val().toLowerCase() ==
+            if ($('#control-form-input-row-2-col-2').val().toLowerCase().trim() ==
                 sessionStorage.getItem(sessionStorage.getItem("#study-row-2-col-1"))) {
                     document.querySelector('#control-div-input-row-2-col-2').innerHTML = `true`;
             }
             else
                 document.querySelector('#control-div-input-row-2-col-2').innerHTML = `false`;
 
-            if ($('#control-form-input-row-3-col-2').val().toLowerCase() ==
+            if ($('#control-form-input-row-3-col-2').val().toLowerCase().trim() ==
                 sessionStorage.getItem(sessionStorage.getItem("#study-row-3-col-1"))) {
                     document.querySelector('#control-div-input-row-3-col-2').innerHTML = `true`;
             }
             else
                 document.querySelector('#control-div-input-row-3-col-2').innerHTML = `false`;
 
-            if ($('#control-form-input-row-4-col-2').val().toLowerCase() ==
+            if ($('#control-form-input-row-4-col-2').val().toLowerCase().trim() ==
                 sessionStorage.getItem(sessionStorage.getItem("#study-row-4-col-1"))) {
                     document.querySelector('#control-div-input-row-4-col-2').innerHTML = `true`;
             }
             else
                 document.querySelector('#control-div-input-row-4-col-2').innerHTML = `false`;
 
-            if ($('#control-form-input-row-5-col-2').val().toLowerCase() ==
+            if ($('#control-form-input-row-5-col-2').val().toLowerCase().trim() ==
                 sessionStorage.getItem(sessionStorage.getItem("#study-row-5-col-1"))) {
                     document.querySelector('#control-div-input-row-5-col-2').innerHTML = `true`;
             }
