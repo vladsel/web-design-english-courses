@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="English">
+
+    <head>
+        <title>
+            Registration
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="../node_modules/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script type="module" src="../script/main.js"></script>
+    </head>
+
+    <body class="bg-light" style="font-family: Arial, Helvetica, sans-serif;">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top bg-primary bg-opacity-100">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand navbar-text" style="font-size: 1.5em;"><img src="../img/logo.png" 
+                    width="55px" class="d-inline-block align-top text-dark" alt="">  Learn English</a>
+                <button class="navbar-toggler me-2" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ml-auto" style="margin-left: auto;">
+                        <a href="index.html" class="navbar-brand" id="logo1"><img src="../img/logo1.png" 
+                            width="55px" class="d-inline-block align-top" alt=""></a>
+                        <li class="nav-item-primary active pe-2 pt-1"
+                            style="margin-left: auto; margin-bottom: -5px;">
+                            <a class="nav-link" style="font-size: 1.35em;" href="register.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item pe-2 pt-1" style="margin-left: auto; margin-bottom: -5px;">
+                            <a class="nav-link" style="font-size: 1.35em;" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item pe-2 pt-1" style="margin-left: auto; margin-bottom: -5px;">
+                            <a class="nav-link" style="font-size: 1.35em;" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item pe-2 pt-1" style="margin-left: auto; margin-bottom: -5px;">
+                            <a class="nav-link" style="font-size: 1.35em;" href="study.html">Study mode</a>
+                        </li>
+                        <li class="nav-item pe-2 pt-1" style="margin-left: auto; margin-bottom: -5px;">
+                            <a class="nav-link" style="font-size: 1.35em;" href="control.html">Control mode</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <form id="register-form-input">
+            <div class="container-fluid">
+                <h2 class="title text-center text-primary" style="font-size: 2.25em;"><br><i>Сreate an account &#9998;</i></h2><br>
+                <div class="row row-cols-2">
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 mx-5">
+                        <input type="text" class="form-control form-control-lg border-primary"
+                            placeholder="First name" id="register-first-name" required>
+                    </div>
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 ms-5">
+                        <input type="text" class="form-control form-control-lg border-primary"
+                            placeholder="Last name" id="register-last-name" required>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 mx-5">
+                        <input type="password" class="form-control form-control-lg border-primary"
+                            placeholder="Password" id="register-password" required>
+                    </div>
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 ms-5">
+                        <input type="password" class="form-control form-control-lg border-primary"
+                            placeholder="Confirm password" id="register-confirm-password" required>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 ms-5">
+                        <input type="email" class="form-control form-control-lg border-primary"
+                            placeholder="name@gmail.com" aria-describedby="passwordHelpLine" id="register-email" required>
+                    </div>
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 ms-5">
+                        <p id="passwordHelpLine" class="text-muted ms-5 mt-2">Password must contain at least 8 characters</p>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 mx-5">
+                        <input type="date" class="form-control form-control-lg border-primary" id="register-date" required>
+                    </div>
+                    <div class="col-lg-5 col-sm-4 col-9 mb-4 ms-5 form-control-lg">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input border-primary" type="radio" name="inlineRadioOptions" id="register-radio-male" value="male" checked required>
+                            <label class="form-check-label" for="register-radio-male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input border-primary" type="radio" name="inlineRadioOptions" id="register-radio-female" value="female" required>
+                            <label class="form-check-label" for="register-radio-female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check ms-5 form-control-lg">
+                    <input class="form-check-input border-primary" type="checkbox" value="agree" id="register-checkbox-agree" checked required>
+                    <label class="form-check-label" for="register-checkbox-agree">
+                        I agree with the processing of my personal data and accept the license agreements
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary text-center ms-5 mt-4 mb-5 ps-5 pe-5 bg-opacity-50" type="submit" id="register-sign-up">Sign Up</button>
+                <div id="register-response"></div>
+            </div>
+        </form>
+        
+        <br>
+        <footer class="page-footer font-small blue bg-primary bg-opacity-75 text-center fixed-bottom">
+            <div class="footer-copyright text-center p-3 text-black">© 2022 Copyright:
+                <a class="text-white" href="index.html">VladSel.com</a>
+            </div>
+        </footer>
+    </body>
+
+</html>
