@@ -1,7 +1,5 @@
-# web-design-kpi
+General task: to develop static Web pages of the application and check their correct display on screens of different sizes.
+Development tools: HTML5, CSS3, Twitter Bootstrap or Material UI frameworks.
 
-Селетков Владислав Русланович, група КВ-91 Лабораторна робота №1: "Розробка статичного інтерфейсу WEB-додатку"
-
-Мета: ознайомитись із засобами мов HTML5 та CSS3 та навчитись застосовувати бібліотеки Twitter Bootstrap/Material UI щодо швидкої побудови Web-інтерфейсу користувача. Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру. Інструменти розробки: мови HTML5, CSS3, фреймворки Twitter Bootstrap або Material UI
-
-Звіт: https://docs.google.com/document/d/1lTjnt7d4Bt7Po1u2czFrIsEHAwZ4Ab0FtGGQfJarLec/edit?usp=sharing
+The given web application is created using HTML, CSS and Twitter Bootstrap for fast and successful learning of English words. The site has a basic set of pages for easy and intuitive application operation. Namely: the main page (Learn English), profile registration (Sign Up), log in to the account (Login), profile (Profile) and two study modes, study mode (Study mode) and control mode (Control mode).
+You can go to each of the specified pages from a different page using the navigation menu, which is the same on all pages. Also, the given website is responsive to any screen size. That is, you can easily use both a smartphone and a computer.
