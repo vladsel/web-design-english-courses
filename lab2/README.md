@@ -1,9 +1,9 @@
-# web-design-kpi
+General task: to develop functionality for static pages of the Web-application of the first laboratory work using the MVC pattern.
 
-Селетков Владислав Русланович, група КВ-91 Лабораторна робота №2: "Розробка функціональності Web-додатка мовою Javascript"
+The specified web application was created using HTML, CSS and Twitter Bootstrap, JavaScript was used to implement the functionality. The site is designed for quick and successful learning of English words. The site has a basic set of pages for easy and intuitive application operation. Namely: the main page (Learn English), profile registration (Sign Up), log in to the account (Login), profile (Profile) and two study modes, study mode (Study mode) and control mode (Control mode).
 
-Мета: ознайомитись із засобами мови Javascript та навчитись їх застосовувати побудови Web-інтерфейсу користувача.
+You can go to each of the specified pages from a different page using the navigation menu, which is the same on all pages. Also, the given website is responsive to any screen size. That is, you can easily use both a smartphone and a computer.
 
-Загальне завдання: розробити функціональність для статичних сторінок Web-додатку першої лабораторної роботи із використанням шаблону MVC.
+The functionality is implemented in such a way that only one profile can be registered (Sign Up). Next, you must log in to the site (Login). If the user did not register a profile (Sign Up) and did not log in to the site (Login), then he will not be able to perform the task to test his knowledge (Control mode). Also, the user can view his entered data on the profile page, if the user has not logged in to the site, then the data will be empty. So, if everything is done correctly, the user can study the words (Study mode) and perform the knowledge control test (Control mode), after passing the test, the results will be displayed.
 
-Звіт: https://docs.google.com/document/d/1l3OdydjM6RS9GI2sEqcOYJGr4abcgwv3D4WHPHd8WDM/edit?usp=sharing
+From it, you can clearly determine that each class is implemented separately according to the MVC pattern. Account and Mode belong to the Model part. OutputAccount and OutputMode belong to the View part. The entire implemented part flows to the Controller class, which belongs to the Controller part. There, the control of the functionality of the classes and the specific execution of the functions of the site pages, which are related to JavaScript, in general, are implemented.
